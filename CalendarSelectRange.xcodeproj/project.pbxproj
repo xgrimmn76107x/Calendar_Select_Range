@@ -9,23 +9,62 @@
 /* Begin PBXBuildFile section */
 		65F38FB829B73A8C0068EE48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FB729B73A8C0068EE48 /* AppDelegate.swift */; };
 		65F38FBA29B73A8C0068EE48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FB929B73A8C0068EE48 /* SceneDelegate.swift */; };
-		65F38FBC29B73A8C0068EE48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FBB29B73A8C0068EE48 /* ViewController.swift */; };
-		65F38FBF29B73A8C0068EE48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F38FBD29B73A8C0068EE48 /* Main.storyboard */; };
 		65F38FC229B73A8C0068EE48 /* CalendarSelectRange.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FC029B73A8C0068EE48 /* CalendarSelectRange.xcdatamodeld */; };
 		65F38FC429B73A8D0068EE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F38FC329B73A8D0068EE48 /* Assets.xcassets */; };
 		65F38FC729B73A8D0068EE48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F38FC529B73A8D0068EE48 /* LaunchScreen.storyboard */; };
+		65F38FD029B73B640068EE48 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 65F38FCF29B73B640068EE48 /* RxCocoa */; };
+		65F38FD229B73B640068EE48 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 65F38FD129B73B640068EE48 /* RxSwift */; };
+		65F38FD529B73B7D0068EE48 /* SwiftyUserDefaults in Frameworks */ = {isa = PBXBuildFile; productRef = 65F38FD429B73B7D0068EE48 /* SwiftyUserDefaults */; };
+		65F38FD829B73B8E0068EE48 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 65F38FD729B73B8E0068EE48 /* SwiftDate */; };
+		65F38FDB29B73B9A0068EE48 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 65F38FDA29B73B9A0068EE48 /* FSCalendar */; };
+		65F38FE029B73BC50068EE48 /* JayCalendarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65F38FDD29B73BC50068EE48 /* JayCalendarVC.xib */; };
+		65F38FE129B73BC50068EE48 /* JayCalendarVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FDE29B73BC50068EE48 /* JayCalendarVM.swift */; };
+		65F38FE229B73BC50068EE48 /* JayCalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FDF29B73BC50068EE48 /* JayCalendarVC.swift */; };
+		65F38FE429B73BE20068EE48 /* JayCalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FE329B73BE20068EE48 /* JayCalendarModel.swift */; };
+		65F38FE629B73BF20068EE48 /* JayCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FE529B73BF20068EE48 /* JayCalendarManager.swift */; };
+		65F38FE929B73C080068EE48 /* DateCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FE829B73C080068EE48 /* DateCalendarCell.swift */; };
+		65F38FEB29B73C350068EE48 /* UserDefaultConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FEA29B73C350068EE48 /* UserDefaultConfig.swift */; };
+		65F38FEE29B73C8A0068EE48 /* DateRepresentable + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FED29B73C8A0068EE48 /* DateRepresentable + Extensions.swift */; };
+		65F38FF129B73D570068EE48 /* ThumbTextSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FF029B73D570068EE48 /* ThumbTextSlider.swift */; };
+		65F38FF329B73D700068EE48 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FF229B73D700068EE48 /* UIViewController+Extensions.swift */; };
+		65F38FF629B73DBC0068EE48 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FF529B73DBC0068EE48 /* Tools.swift */; };
+		65F38FF829B73E4E0068EE48 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F38FF729B73E4E0068EE48 /* Color.xcassets */; };
+		65F38FFA29B73E6B0068EE48 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FF929B73E6B0068EE48 /* ColorManager.swift */; };
+		65F38FFC29B73EB40068EE48 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FFB29B73EB40068EE48 /* ImageManager.swift */; };
+		65F38FFF29B73F050068EE48 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FFD29B73F050068EE48 /* FirstVC.swift */; };
+		65F3900029B73F050068EE48 /* FirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65F38FFE29B73F050068EE48 /* FirstVC.xib */; };
+		65F3900229B7425C0068EE48 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F3900129B7425C0068EE48 /* UIView+Extensions.swift */; };
+		65F3900429B81DC80068EE48 /* CusomUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F3900329B81DC80068EE48 /* CusomUIButton.swift */; };
+		65F3900629B81DEC0068EE48 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F3900529B81DEC0068EE48 /* CGFloat+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65F38FB429B73A8C0068EE48 /* CalendarSelectRange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarSelectRange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F38FB729B73A8C0068EE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65F38FB929B73A8C0068EE48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		65F38FBB29B73A8C0068EE48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		65F38FBE29B73A8C0068EE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65F38FC129B73A8C0068EE48 /* CalendarSelectRange.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CalendarSelectRange.xcdatamodel; sourceTree = "<group>"; };
 		65F38FC329B73A8D0068EE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65F38FC629B73A8D0068EE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65F38FC829B73A8D0068EE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65F38FDD29B73BC50068EE48 /* JayCalendarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JayCalendarVC.xib; sourceTree = "<group>"; };
+		65F38FDE29B73BC50068EE48 /* JayCalendarVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayCalendarVM.swift; sourceTree = "<group>"; };
+		65F38FDF29B73BC50068EE48 /* JayCalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayCalendarVC.swift; sourceTree = "<group>"; };
+		65F38FE329B73BE20068EE48 /* JayCalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayCalendarModel.swift; sourceTree = "<group>"; };
+		65F38FE529B73BF20068EE48 /* JayCalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayCalendarManager.swift; sourceTree = "<group>"; };
+		65F38FE829B73C080068EE48 /* DateCalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCalendarCell.swift; sourceTree = "<group>"; };
+		65F38FEA29B73C350068EE48 /* UserDefaultConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultConfig.swift; sourceTree = "<group>"; };
+		65F38FED29B73C8A0068EE48 /* DateRepresentable + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateRepresentable + Extensions.swift"; sourceTree = "<group>"; };
+		65F38FF029B73D570068EE48 /* ThumbTextSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbTextSlider.swift; sourceTree = "<group>"; };
+		65F38FF229B73D700068EE48 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		65F38FF529B73DBC0068EE48 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		65F38FF729B73E4E0068EE48 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		65F38FF929B73E6B0068EE48 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		65F38FFB29B73EB40068EE48 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		65F38FFD29B73F050068EE48 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		65F38FFE29B73F050068EE48 /* FirstVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstVC.xib; sourceTree = "<group>"; };
+		65F3900129B7425C0068EE48 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		65F3900329B81DC80068EE48 /* CusomUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CusomUIButton.swift; sourceTree = "<group>"; };
+		65F3900529B81DEC0068EE48 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F38FD829B73B8E0068EE48 /* SwiftDate in Frameworks */,
+				65F38FD229B73B640068EE48 /* RxSwift in Frameworks */,
+				65F38FD529B73B7D0068EE48 /* SwiftyUserDefaults in Frameworks */,
+				65F38FDB29B73B9A0068EE48 /* FSCalendar in Frameworks */,
+				65F38FD029B73B640068EE48 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,14 +104,71 @@
 			children = (
 				65F38FB729B73A8C0068EE48 /* AppDelegate.swift */,
 				65F38FB929B73A8C0068EE48 /* SceneDelegate.swift */,
-				65F38FBB29B73A8C0068EE48 /* ViewController.swift */,
-				65F38FBD29B73A8C0068EE48 /* Main.storyboard */,
+				65F38FFD29B73F050068EE48 /* FirstVC.swift */,
+				65F38FFE29B73F050068EE48 /* FirstVC.xib */,
+				65F38FDC29B73BB80068EE48 /* Calendar */,
+				65F38FF429B73DB40068EE48 /* Tools */,
+				65F38FEF29B73D450068EE48 /* CustomClass */,
+				65F38FEC29B73C740068EE48 /* Extension */,
 				65F38FC329B73A8D0068EE48 /* Assets.xcassets */,
+				65F38FFB29B73EB40068EE48 /* ImageManager.swift */,
+				65F38FF729B73E4E0068EE48 /* Color.xcassets */,
+				65F38FF929B73E6B0068EE48 /* ColorManager.swift */,
 				65F38FC529B73A8D0068EE48 /* LaunchScreen.storyboard */,
 				65F38FC829B73A8D0068EE48 /* Info.plist */,
 				65F38FC029B73A8C0068EE48 /* CalendarSelectRange.xcdatamodeld */,
 			);
 			path = CalendarSelectRange;
+			sourceTree = "<group>";
+		};
+		65F38FDC29B73BB80068EE48 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				65F38FDF29B73BC50068EE48 /* JayCalendarVC.swift */,
+				65F38FDD29B73BC50068EE48 /* JayCalendarVC.xib */,
+				65F38FDE29B73BC50068EE48 /* JayCalendarVM.swift */,
+				65F38FE329B73BE20068EE48 /* JayCalendarModel.swift */,
+				65F38FE729B73BFB0068EE48 /* CalendarCell */,
+				65F38FE529B73BF20068EE48 /* JayCalendarManager.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		65F38FE729B73BFB0068EE48 /* CalendarCell */ = {
+			isa = PBXGroup;
+			children = (
+				65F38FE829B73C080068EE48 /* DateCalendarCell.swift */,
+			);
+			path = CalendarCell;
+			sourceTree = "<group>";
+		};
+		65F38FEC29B73C740068EE48 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				65F38FED29B73C8A0068EE48 /* DateRepresentable + Extensions.swift */,
+				65F38FF229B73D700068EE48 /* UIViewController+Extensions.swift */,
+				65F3900129B7425C0068EE48 /* UIView+Extensions.swift */,
+				65F3900529B81DEC0068EE48 /* CGFloat+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		65F38FEF29B73D450068EE48 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				65F38FF029B73D570068EE48 /* ThumbTextSlider.swift */,
+				65F3900329B81DC80068EE48 /* CusomUIButton.swift */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		65F38FF429B73DB40068EE48 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				65F38FEA29B73C350068EE48 /* UserDefaultConfig.swift */,
+				65F38FF529B73DBC0068EE48 /* Tools.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +187,13 @@
 			dependencies = (
 			);
 			name = CalendarSelectRange;
+			packageProductDependencies = (
+				65F38FCF29B73B640068EE48 /* RxCocoa */,
+				65F38FD129B73B640068EE48 /* RxSwift */,
+				65F38FD429B73B7D0068EE48 /* SwiftyUserDefaults */,
+				65F38FD729B73B8E0068EE48 /* SwiftDate */,
+				65F38FDA29B73B9A0068EE48 /* FSCalendar */,
+			);
 			productName = CalendarSelectRange;
 			productReference = 65F38FB429B73A8C0068EE48 /* CalendarSelectRange.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +222,12 @@
 				Base,
 			);
 			mainGroup = 65F38FAB29B73A8C0068EE48;
+			packageReferences = (
+				65F38FCE29B73B640068EE48 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				65F38FD329B73B7D0068EE48 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */,
+				65F38FD629B73B8E0068EE48 /* XCRemoteSwiftPackageReference "SwiftDate" */,
+				65F38FD929B73B990068EE48 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
 			productRefGroup = 65F38FB529B73A8C0068EE48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,8 +243,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				65F38FC729B73A8D0068EE48 /* LaunchScreen.storyboard in Resources */,
+				65F38FF829B73E4E0068EE48 /* Color.xcassets in Resources */,
+				65F38FE029B73BC50068EE48 /* JayCalendarVC.xib in Resources */,
 				65F38FC429B73A8D0068EE48 /* Assets.xcassets in Resources */,
-				65F38FBF29B73A8C0068EE48 /* Main.storyboard in Resources */,
+				65F3900029B73F050068EE48 /* FirstVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +257,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F38FBC29B73A8C0068EE48 /* ViewController.swift in Sources */,
+				65F38FEB29B73C350068EE48 /* UserDefaultConfig.swift in Sources */,
+				65F38FE429B73BE20068EE48 /* JayCalendarModel.swift in Sources */,
+				65F38FF329B73D700068EE48 /* UIViewController+Extensions.swift in Sources */,
+				65F38FE929B73C080068EE48 /* DateCalendarCell.swift in Sources */,
+				65F38FF129B73D570068EE48 /* ThumbTextSlider.swift in Sources */,
+				65F3900629B81DEC0068EE48 /* CGFloat+Extension.swift in Sources */,
+				65F3900429B81DC80068EE48 /* CusomUIButton.swift in Sources */,
+				65F38FFA29B73E6B0068EE48 /* ColorManager.swift in Sources */,
+				65F3900229B7425C0068EE48 /* UIView+Extensions.swift in Sources */,
+				65F38FEE29B73C8A0068EE48 /* DateRepresentable + Extensions.swift in Sources */,
 				65F38FB829B73A8C0068EE48 /* AppDelegate.swift in Sources */,
+				65F38FE229B73BC50068EE48 /* JayCalendarVC.swift in Sources */,
 				65F38FC229B73A8C0068EE48 /* CalendarSelectRange.xcdatamodeld in Sources */,
+				65F38FFC29B73EB40068EE48 /* ImageManager.swift in Sources */,
+				65F38FE629B73BF20068EE48 /* JayCalendarManager.swift in Sources */,
+				65F38FFF29B73F050068EE48 /* FirstVC.swift in Sources */,
+				65F38FF629B73DBC0068EE48 /* Tools.swift in Sources */,
 				65F38FBA29B73A8C0068EE48 /* SceneDelegate.swift in Sources */,
+				65F38FE129B73BC50068EE48 /* JayCalendarVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		65F38FBD29B73A8C0068EE48 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65F38FBE29B73A8C0068EE48 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		65F38FC529B73A8D0068EE48 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -220,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -362,6 +485,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		65F38FCE29B73B640068EE48 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+		65F38FD329B73B7D0068EE48 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sunshinejr/SwiftyUserDefaults.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.3.0;
+			};
+		};
+		65F38FD629B73B8E0068EE48 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		65F38FD929B73B990068EE48 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		65F38FCF29B73B640068EE48 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65F38FCE29B73B640068EE48 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		65F38FD129B73B640068EE48 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65F38FCE29B73B640068EE48 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		65F38FD429B73B7D0068EE48 /* SwiftyUserDefaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65F38FD329B73B7D0068EE48 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */;
+			productName = SwiftyUserDefaults;
+		};
+		65F38FD729B73B8E0068EE48 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65F38FD629B73B8E0068EE48 /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		65F38FDA29B73B9A0068EE48 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65F38FD929B73B990068EE48 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		65F38FC029B73A8C0068EE48 /* CalendarSelectRange.xcdatamodeld */ = {
