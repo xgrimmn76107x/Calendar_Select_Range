@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		655CBEBD29BED5A200876D91 /* DemoVideo.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 655CBEBC29BED5A200876D91 /* DemoVideo.MP4 */; };
 		65F38FB829B73A8C0068EE48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FB729B73A8C0068EE48 /* AppDelegate.swift */; };
 		65F38FBA29B73A8C0068EE48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FB929B73A8C0068EE48 /* SceneDelegate.swift */; };
 		65F38FC229B73A8C0068EE48 /* CalendarSelectRange.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65F38FC029B73A8C0068EE48 /* CalendarSelectRange.xcdatamodeld */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		655CBEBC29BED5A200876D91 /* DemoVideo.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = DemoVideo.MP4; path = ../../../../../../Downloads/DemoVideo.MP4; sourceTree = "<group>"; };
 		65F38FB429B73A8C0068EE48 /* CalendarSelectRange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarSelectRange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F38FB729B73A8C0068EE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65F38FB929B73A8C0068EE48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		655CBEBB29BED55100876D91 /* DescFile */ = {
+			isa = PBXGroup;
+			children = (
+				655CBEBC29BED5A200876D91 /* DemoVideo.MP4 */,
+			);
+			path = DescFile;
+			sourceTree = "<group>";
+		};
 		65F38FAB29B73A8C0068EE48 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +127,7 @@
 				65F38FC529B73A8D0068EE48 /* LaunchScreen.storyboard */,
 				65F38FC829B73A8D0068EE48 /* Info.plist */,
 				65F38FC029B73A8C0068EE48 /* CalendarSelectRange.xcdatamodeld */,
+				655CBEBB29BED55100876D91 /* DescFile */,
 			);
 			path = CalendarSelectRange;
 			sourceTree = "<group>";
@@ -245,6 +256,7 @@
 				65F38FC729B73A8D0068EE48 /* LaunchScreen.storyboard in Resources */,
 				65F38FF829B73E4E0068EE48 /* Color.xcassets in Resources */,
 				65F38FE029B73BC50068EE48 /* JayCalendarVC.xib in Resources */,
+				655CBEBD29BED5A200876D91 /* DemoVideo.MP4 in Resources */,
 				65F38FC429B73A8D0068EE48 /* Assets.xcassets in Resources */,
 				65F3900029B73F050068EE48 /* FirstVC.xib in Resources */,
 			);
